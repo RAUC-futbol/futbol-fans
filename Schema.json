@@ -1,0 +1,14 @@
+{
+  "Team": {
+    "fields": ["_id", "name", "shortName", "tla", "crest"]
+    // ... other information about the Team schema
+  },
+  "League": {
+    "fields": ["_id", "code", "name"]
+    // ... other information about the League schema
+  },
+  "TeamStanding": {
+    "fields": ["_id", "teamId", "leagueId", "standings"]
+    // ... other information about the TeamStanding schema
+  }
+}
