@@ -31,27 +31,25 @@ Each shop will contain reviews of the customer’s experiences -->
 ### MVP
 
 - User can log in and create a user profile to customize their experience
-  - Upload photo link
   - Form to collect user information and preferences (favorite team, etc.)
   - User selects their preference in name of the sport: football, fútbol, soccer
 - When the user is logged in, they can view and edit a dashboard of customizable statistics
   - Use a database to store which teams, players, or other datasets are in the user's dashboard
 - Searchable/filterable list of statistics by team
-- Information feed of upcoming matches sorted by location
-- Users can like their favorite teams and be able to see the number of likes.
+- Information feed of upcoming matches sorted by league and team
 - 3rd Party API accessed to create custom database of sports information
 - External server to host back-end
 - External database to store user information (securely)
-- Store data in cache so that 3rd party API does not have to be pinged if data is not "stale"
 
 ### Stretch
 
 - Connect with other users who follow the same team
-- Let the user follow their favorite players and teams with updated news.
-- chat feature during live games to interact with other fans.
+- Let the user follow their favorite players and teams with updated news
+- chat feature during live games to interact with other fans
 - Link to buy tickets for games (use a 3rd party API?) (SeatGeek, ticketMaster?)
-- Video/audio/text highlights of game and players
+- Video/audio/text highlights of game, leagues and players
 - User can save their favorite player and see stats related to them
+- Store data in cache so that 3rd party API does not have to be pinged if data is not "stale"
 
 ## Functional Requirements
 
