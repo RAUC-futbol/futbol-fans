@@ -1,5 +1,9 @@
 # Futbol Fans
 
+- [Live Deployed Site](https://futbol-fans.netlify.app/)
+- [Back-end Repository](https://github.com/RAUC-futbol/futbol-fans-backend)
+- [Front-end Repository](https://github.com/RAUC-futbol/futbol-fans-frontend)
+
 ## Team Member Names
 
 1. Rhett Chase
@@ -9,11 +13,10 @@
 
 ## Description of Project
 
-Fútbol (soccer) fans can build their own dashboards to track their favorite teams. The custom dashboard displays news and statistics for the teams, players and other preferences. They can also connect with other fans of the same team.
+Fútbol (soccer) fans can build their own dashboards to track their favorite teams. The custom dashboard displays news and statistics for the teams, players and other preferences.
 
 - Users want to track their favorite teams
 - Interactive way to customize sports news and statistics
-- Connect with other fans of the same team
 
 ## User Stories
 
@@ -61,3 +64,16 @@ Users will be able to view highlights from other soccer matches around the world
 ## Domain Model
 
 ![Domain-Model](img/data-schema.png)
+
+## MVP
+
+- User can log in and create a user profile to customize their experience
+  - Form to collect user information and preferences (favorite team, etc.)
+  - User selects their preference in name of the sport: football, fútbol, soccer
+- When the user is logged in, they can view and edit a dashboard of customizable statistics
+  - Use a database to store which teams, players, or other datasets are in the user's dashboard
+- Searchable/filterable list of statistics by team
+- Information feed of upcoming matches sorted by league and team
+- 3rd Party API accessed to create custom database of sports information
+- External server to host back-end
+- External database to store user information (securely)
